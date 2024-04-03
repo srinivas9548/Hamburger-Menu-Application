@@ -1,0 +1,125 @@
+.navbar-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  max-width: 460px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 1110px;
+  }
+}
+
+.link-item {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.website-logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.hamburgerIconButton {
+  background-color: transparent;
+  padding: 0px;
+  width: 42px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 460px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    max-width: 1110px;
+  }
+}
+
+.close-button {
+  background-color: transparent;
+  align-self: flex-end;
+  margin-top: 32px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*  */
+
+.nav-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  flex-grow: 1;
+}
+
+.nav-list-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #252627;
+  margin-bottom: 20px;
+}
+
+.nav-link-content {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #252627;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-content {
+    font-size: 40px;
+  }
+}
